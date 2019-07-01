@@ -13,7 +13,7 @@ post.title = "Title Goes Here"
 post.description = "Desc goes here..."
 post.save
 ```
-
+ 
 This syntax will let you manually create a new `Post` record with `title` and
 `description` attributes. After running the `save` method in the console, you
 will see output similar to the following:
