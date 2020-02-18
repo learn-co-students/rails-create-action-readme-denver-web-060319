@@ -1,3 +1,4 @@
 <% @posts.each do |post| %>
   <div><%= post.title %></div>
+  <%= link_to "Post Show Page", post_path(post) %><br><br>
 <% end %>
